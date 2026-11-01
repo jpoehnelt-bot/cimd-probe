@@ -1,0 +1,16 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/jpoehnelt-bot/cimd-probe@main/cimd-doc.json",
+  "client_name": "Talus CIMD probe",
+  "redirect_uris": [
+    "https://example.com/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid offline_access"
+}
